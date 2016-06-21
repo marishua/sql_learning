@@ -1,24 +1,33 @@
 
-# to initialize git (only once)
+# 1. Create or clone project
+
+## to initialize git (only once)
 git init
 
-# show git current status
+## clone git repo to local pc (only once to create local project)
+git clone https://github.com/marishua/sql_learning.git
+
+# 2. Main git commands
+
+## show git current status
 git status
 
-# add all untracked files to git repo
+## add all untracked files to git repo
 git add .
 
-# commit files (or changes) to repo (new log record will be created)
+## commit files (or changes) to repo (new log record will be created)
 git commit -m 'this is commit comments'
 
-# show git changes log
+## show git changes log
 git log
 
-# reverse made changes (not committed)
+## reverse made changes (not committed)
 git checkout <file_name>
 
-# push changes to git repo (remote)
+# 3. Sync local project with remote git repo
+
+## send changes to git repo (remote)
 git push
 
-# clone git repo to local pc
-git clone https://github.com/marishua/sql_learning.git
+## get changes from git repo
+git pull
